@@ -11,7 +11,7 @@ namespace projekt.Models
     public class IdentitySeeData
     {
         private const string adminUser = "Admin";
-        private const string adminPassword = "Admin12345";
+        private const string adminPassword = "Admin#12345";
 
         public static async Task EnsurePopulated(UserManager<IdentityUser> userManager)
         {
